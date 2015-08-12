@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'about/index'
+  get 'about', to: 'about#index'
 
   resources :members
   # The priority is based upon order of creation: first created -> highest priority.
